@@ -1,0 +1,63 @@
+/*** 2. The code specifies margins of 1 em all around, except for the right. It has no margin. Fill in the blank. */
+
+p {
+    margin: 1em, 0em, 1em ,1em;
+    /***  top | right | bottom | left*/
+}
+
+/*** 4. What is the more concise way to code this? margin: 0 0 .5em 0; **/
+
+p {
+    margin-bottom: .5em;
+}
+
+/* code onto the screen to style paragraphs with left and right margins. The left margin is larger. */
+
+p {
+    margin: 0em 1em 0 .75em;
+}
+
+/* Create a class of paragraphs, named "separated" with a bottom margin of .75 ems. Specify all the margins for this class. */
+
+p.separated {
+    margin-bottom: .75em;
+}
+
+/* Rewrite this code without specifying all the margins.
+margin: 0 0 0 .5em; */
+
+p {
+    margin-left: .5em;
+}
+
+/* Specifying margins for all four sides in a single statement, give h4 headings equal left and right margins of .25 ems. Specify top and bottom margins of 0. */
+
+h4 {
+    margin: 0 .25em 0 .25em;
+}
+
+p {
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+ /* In a single statement specify all four margins for a class of paragraph. The bottom margin is .25 ems. The other margins are twice that size. Make up the name. */
+
+p.class {
+    margin: .5em .5em .25em .5em;
+}
+
+/* Give paragraphs a bottom margin that separates them by .75 ems and have a first-line indent of the same size. Don't specify any other margins. */
+
+p {
+    margin-bottom: .75em;
+    text-indent: .75em;
+}
+/* 
+Style a class of headings (your choice of size) that have equal left and right margins of 1 em and are 120% of the "normal" size. Specify the margins in a single statement. Make up the name. */
+
+h3.standout {
+    margin: 0 1em 0 1em;
+    font-size: 1.2em;
+}
+
